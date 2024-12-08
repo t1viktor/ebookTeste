@@ -1,0 +1,38 @@
+::-webkit-scrollbar{
+    width: 6px;
+    background-color: #0d1224;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: gray;
+}
+
+.bgImg{
+    width: 100%;
+    height: 600px;
+    background-image: url(/src/img/torsoFemininoImg.jpeg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.bgImg h2{
+    color: rgba(255, 217, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bgImg p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 5px;
+    border-radius: 5px;
+}
