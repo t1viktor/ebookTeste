@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main{
+    @apply mt-4 flex flex-col gap-4 p-2;
+}
+
+.section{
+    @apply border-slate-400 border-2 shadow-inner shadow-black bg-slate-800 p-6 rounded flex flex-col gap-4 ;
+}
+
+.h2Sec{
+    @apply text-orange-200 text-4xl text-center py-3 border-b-2;
+}
+
+.imgSec{
+    @apply rounded shadow-md shadow-black border-4 border-slate-100;
+}
+
+.pSec{
+    @apply text-gray-200 text-lg;
+}
